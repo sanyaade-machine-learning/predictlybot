@@ -1,8 +1,8 @@
 <p align="center">
   <a href="#">
-    <img alt="predictlybot" src="https://i.imgur.com/HmvI1JP.png" width="128"><br/>    
+    <img alt="predictlybot" src="https://www.predictly.co/robotic.png" width="128"><br/>    
   </a>
-  <sub>Icon by <a href="http://www.flaticon.com/authors/simpleicon">simpleicons</a></sub>
+  <sub>Icon by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a></sub>
 </p>
 
 <p align="center">
