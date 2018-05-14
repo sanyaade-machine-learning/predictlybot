@@ -1,0 +1,33 @@
+{% extends "generic.html" %}
+
+{% load static %}
+
+{% block stories_active %} active {% endblock %}
+
+{% block webpage_title %}
+    predictlybot | Stories
+{% endblock %}
+
+{% block content %}
+    <div class="well">
+        <h3>
+            <a href="{% url 'stories_view' %}">Stories</a>
+        </h3>
+    </div>
+
+
+    <br/>
+
+    <div class="well">
+        <h2>Story List</h2>
+        <hr/>
+
+        <div id="div-stories-table"></div>
+
+    </div>
+
+{% endblock content %}
+
+{% block end_extra_scripts %}
+    <script src="{% static 'js/stories.js' %}"></script>
+{% endblock %}

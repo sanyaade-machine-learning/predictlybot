@@ -1,0 +1,28 @@
+{% extends "generic.html" %}
+
+{% block webpage_title %}
+    predictlybot | About
+{% endblock %}
+
+{% block content %}
+    <h2>predictlybot. What? Why?</h2>
+    <hr/>
+    <p>
+        predictlybot allows you to build, train, and classify your own sentences via a Web UI. predictlybot can also communicate with
+        your
+        applications through a RESTful API.
+    </p>
+
+    <p>
+        In other words, predictlybot aims to be a free, open sourced alternative to api.ai, luis.ai, and wit.ai
+    </p>
+
+    <p>
+        predictlybot turns words into meanings (with enough training data), for example:
+
+        <p>Jack lives in Berlin -> <code>{'person': 'Jack', 'location': 'Berlin'}</code></p>
+        <p>Tutu really likes bananas -> <code>{'person': 'Tutu', 'food': 'bananas'}</code></p>
+        <p>Close the door -> <code>{'action': 'close', 'object': 'door'}</code></p>
+    </p>
+    <hr/>
+{% endblock %}

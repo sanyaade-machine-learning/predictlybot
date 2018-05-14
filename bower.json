@@ -1,0 +1,21 @@
+{
+  "name": "PredictlyBot",
+  "description": "(Frontend) Train your own Natural Language Processor straight from your browser!",
+  "main": "",
+  "authors": [
+    "info@predictly.co"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.predictly.co/predictlybot/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.3.2",
+    "bootstrap": "^3.3.7"
+  }
+}

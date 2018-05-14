@@ -1,0 +1,33 @@
+{
+  "name": "laice",
+  "version": "1.0.0",
+  "description": "(Frontend) Train your own Natural Language Processor straight from your browser!",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kendricktan/laice.git"
+  },
+  "author": "Kendrick Tan kendricktan0814@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kendricktan/laice/issues"
+  },
+  "homepage": "https://github.com/kendricktan/laice#readme",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "bower": "^1.7.9",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browser": "^3.0.2",
+    "gulp-size": "^2.1.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-timer-mixin": "^0.13.3",
+    "reactify": "^1.1.1",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}
